@@ -1,0 +1,26 @@
+# DSH / system artifacts that are machine-specific — never commit these
+_acl_recovery/
+
+# OS and editor noise
+Thumbs.db
+desktop.ini
+.DS_Store
+*.swp
+*~
+
+# Dependency and build output
+node_modules/
+dist/
+build/
+out/
+
+# Local environment and secrets
+.env
+.env.*
+*.local
+secrets.json
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
